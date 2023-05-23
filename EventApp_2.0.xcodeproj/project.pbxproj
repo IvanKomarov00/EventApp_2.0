@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		17B23F9F2A18FF7B00D10287 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B23F9E2A18FF7B00D10287 /* AppDelegate.swift */; };
 		17B23FA12A18FF7B00D10287 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B23FA02A18FF7B00D10287 /* SceneDelegate.swift */; };
-		17B23FA32A18FF7B00D10287 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B23FA22A18FF7B00D10287 /* ViewController.swift */; };
-		17B23FA62A18FF7B00D10287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B23FA42A18FF7B00D10287 /* Main.storyboard */; };
 		17B23FA82A18FF7C00D10287 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B23FA72A18FF7C00D10287 /* Assets.xcassets */; };
 		17B23FAB2A18FF7C00D10287 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B23FA92A18FF7C00D10287 /* LaunchScreen.storyboard */; };
+		17B23FB52A19008E00D10287 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B23FB42A19008E00D10287 /* MainTabBarController.swift */; };
+		17B23FBA2A1905CF00D10287 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B23FB92A1905CF00D10287 /* MapViewController.swift */; };
+		17B23FBC2A1905E200D10287 /* MapView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B23FBB2A1905E200D10287 /* MapView.storyboard */; };
+		17B23FBE2A19060D00D10287 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B23FBD2A19060D00D10287 /* ScheduleViewController.swift */; };
+		17B23FC02A19062600D10287 /* ScheduleView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B23FBF2A19062600D10287 /* ScheduleView.storyboard */; };
+		17B23FC22A19063800D10287 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17B23FC12A19063800D10287 /* ProfileViewController.swift */; };
+		17B23FC42A19064300D10287 /* ProfileView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B23FC32A19064300D10287 /* ProfileView.storyboard */; };
+		17B23FC62A190C2A00D10287 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B23FC52A190C2A00D10287 /* Main.storyboard */; };
+		17E3F5682A1CE6FD0028F846 /* MapSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E3F5672A1CE6FD0028F846 /* MapSettingsViewController.swift */; };
+		17E3F56A2A1CE70B0028F846 /* MapSettingsView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17E3F5692A1CE70B0028F846 /* MapSettingsView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17B23F9B2A18FF7B00D10287 /* EventApp_2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventApp_2.0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17B23F9E2A18FF7B00D10287 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17B23FA02A18FF7B00D10287 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		17B23FA22A18FF7B00D10287 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		17B23FA52A18FF7B00D10287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		17B23FA72A18FF7C00D10287 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17B23FAA2A18FF7C00D10287 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		17B23FAC2A18FF7C00D10287 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		17B23FB42A19008E00D10287 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		17B23FB92A1905CF00D10287 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		17B23FBB2A1905E200D10287 /* MapView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapView.storyboard; sourceTree = "<group>"; };
+		17B23FBD2A19060D00D10287 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		17B23FBF2A19062600D10287 /* ScheduleView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ScheduleView.storyboard; sourceTree = "<group>"; };
+		17B23FC12A19063800D10287 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		17B23FC32A19064300D10287 /* ProfileView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileView.storyboard; sourceTree = "<group>"; };
+		17B23FC52A190C2A00D10287 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		17E3F5672A1CE6FD0028F846 /* MapSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSettingsViewController.swift; sourceTree = "<group>"; };
+		17E3F5692A1CE70B0028F846 /* MapSettingsView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapSettingsView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +74,69 @@
 			children = (
 				17B23F9E2A18FF7B00D10287 /* AppDelegate.swift */,
 				17B23FA02A18FF7B00D10287 /* SceneDelegate.swift */,
-				17B23FA22A18FF7B00D10287 /* ViewController.swift */,
-				17B23FA42A18FF7B00D10287 /* Main.storyboard */,
+				17B23FB22A19002500D10287 /* AppSections */,
 				17B23FA72A18FF7C00D10287 /* Assets.xcassets */,
 				17B23FA92A18FF7C00D10287 /* LaunchScreen.storyboard */,
 				17B23FAC2A18FF7C00D10287 /* Info.plist */,
+				17B23FC52A190C2A00D10287 /* Main.storyboard */,
 			);
 			path = EventApp_2.0;
+			sourceTree = "<group>";
+		};
+		17B23FB22A19002500D10287 /* AppSections */ = {
+			isa = PBXGroup;
+			children = (
+				17B23FB32A19005D00D10287 /* TabBarController */,
+				17B23FB62A19053400D10287 /* MapVC */,
+				17B23FB82A19056F00D10287 /* ScheduleVC */,
+				17B23FB72A19054500D10287 /* ProfileVC */,
+			);
+			path = AppSections;
+			sourceTree = "<group>";
+		};
+		17B23FB32A19005D00D10287 /* TabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				17B23FB42A19008E00D10287 /* MainTabBarController.swift */,
+			);
+			path = TabBarController;
+			sourceTree = "<group>";
+		};
+		17B23FB62A19053400D10287 /* MapVC */ = {
+			isa = PBXGroup;
+			children = (
+				17B23FB92A1905CF00D10287 /* MapViewController.swift */,
+				17B23FBB2A1905E200D10287 /* MapView.storyboard */,
+				17E3F5662A1CE6B80028F846 /* MapSettingsVC */,
+			);
+			path = MapVC;
+			sourceTree = "<group>";
+		};
+		17B23FB72A19054500D10287 /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				17B23FC12A19063800D10287 /* ProfileViewController.swift */,
+				17B23FC32A19064300D10287 /* ProfileView.storyboard */,
+			);
+			path = ProfileVC;
+			sourceTree = "<group>";
+		};
+		17B23FB82A19056F00D10287 /* ScheduleVC */ = {
+			isa = PBXGroup;
+			children = (
+				17B23FBD2A19060D00D10287 /* ScheduleViewController.swift */,
+				17B23FBF2A19062600D10287 /* ScheduleView.storyboard */,
+			);
+			path = ScheduleVC;
+			sourceTree = "<group>";
+		};
+		17E3F5662A1CE6B80028F846 /* MapSettingsVC */ = {
+			isa = PBXGroup;
+			children = (
+				17E3F5672A1CE6FD0028F846 /* MapSettingsViewController.swift */,
+				17E3F5692A1CE70B0028F846 /* MapSettingsView.storyboard */,
+			);
+			path = MapSettingsVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +198,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				17B23FAB2A18FF7C00D10287 /* LaunchScreen.storyboard in Resources */,
+				17E3F56A2A1CE70B0028F846 /* MapSettingsView.storyboard in Resources */,
 				17B23FA82A18FF7C00D10287 /* Assets.xcassets in Resources */,
-				17B23FA62A18FF7B00D10287 /* Main.storyboard in Resources */,
+				17B23FBC2A1905E200D10287 /* MapView.storyboard in Resources */,
+				17B23FC62A190C2A00D10287 /* Main.storyboard in Resources */,
+				17B23FC02A19062600D10287 /* ScheduleView.storyboard in Resources */,
+				17B23FC42A19064300D10287 /* ProfileView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +214,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17B23FA32A18FF7B00D10287 /* ViewController.swift in Sources */,
+				17E3F5682A1CE6FD0028F846 /* MapSettingsViewController.swift in Sources */,
+				17B23FC22A19063800D10287 /* ProfileViewController.swift in Sources */,
+				17B23FBE2A19060D00D10287 /* ScheduleViewController.swift in Sources */,
 				17B23F9F2A18FF7B00D10287 /* AppDelegate.swift in Sources */,
 				17B23FA12A18FF7B00D10287 /* SceneDelegate.swift in Sources */,
+				17B23FB52A19008E00D10287 /* MainTabBarController.swift in Sources */,
+				17B23FBA2A1905CF00D10287 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		17B23FA42A18FF7B00D10287 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				17B23FA52A18FF7B00D10287 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		17B23FA92A18FF7C00D10287 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
